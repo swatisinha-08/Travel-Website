@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+<link rel="stylesheet" href="bootstrap.min.css">
+
+<link rel="stylesheet" href="contact.css">
+<title>Contact Form #6</title>
+<script nonce="a8ba498a-9b67-4936-8294-14e56c16eb37">(function(w,d){!function(t,u,v,w){t[v]=t[v]||{};t[v].executed=[];t.zaraz={deferred:[],listeners:[]};t.zaraz.q=[];t.zaraz._f=function(x){return async function(){var y=Array.prototype.slice.call(arguments);t.zaraz.q.push({m:x,a:y})}};for(const z of["track","set","debug"])t.zaraz[z]=t.zaraz._f(z);t.zaraz.init=()=>{var A=u.getElementsByTagName(w)[0],B=u.createElement(w),C=u.getElementsByTagName("title")[0];C&&(t[v].t=u.getElementsByTagName("title")[0].text);t[v].x=Math.random();t[v].w=t.screen.width;t[v].h=t.screen.height;t[v].j=t.innerHeight;t[v].e=t.innerWidth;t[v].l=t.location.href;t[v].r=u.referrer;t[v].k=t.screen.colorDepth;t[v].n=u.characterSet;t[v].o=(new Date).getTimezoneOffset();if(t.dataLayer)for(const G of Object.entries(Object.entries(dataLayer).reduce(((H,I)=>({...H[1],...I[1]})),{})))zaraz.set(G[0],G[1],{scope:"page"});t[v].q=[];for(;t.zaraz.q.length;){const J=t.zaraz.q.shift();t[v].q.push(J)}B.defer=!0;for(const K of[localStorage,sessionStorage])Object.keys(K||{}).filter((M=>M.startsWith("_zaraz_"))).forEach((L=>{try{t[v]["z_"+L.slice(7)]=JSON.parse(K.getItem(L))}catch{t[v]["z_"+L.slice(7)]=K.getItem(L)}}));B.referrerPolicy="origin";B.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(t[v])));A.parentNode.insertBefore(B,A)};["complete","interactive"].includes(u.readyState)?zaraz.init():t.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+<div class="content">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-10">
+<div class="row justify-content-center">
+<div class="col-md-6">
+<h3 class="heading mb-4">CONTACT US</h3>
+<p>Our team is just a message away. Whether you need assistance, have questions, or want to collaborate, drop us a line.</p>
+<img src="conatct.jpeg" alt="Image" class="img-fluid" width="400" height="400">
+
+</div>
+<div class="col-md-6">
+<form class="mb-5" method="post" id="contactForm" name="contactForm">
+<div class="row">
+<div class="col-md-12 form-group">
+<input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 form-group">
+<input type="text" class="form-control" name="email" id="email" placeholder="Email">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 form-group">
+<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 form-group">
+<textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+<span class="submitting"></span>
+</div>
+</div>
+</form>
+<div id="form-message-warning mt-4"></div>
+<div id="form-message-success">
+Your message was sent, thank you!
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script src="contact.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"81884fe20ddd8590","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+</body>
+</html>
